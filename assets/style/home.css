@@ -58,3 +58,11 @@ h1 {
   font-weight: 700;
   color: white;
 }
+
+.clickable-section{
+  cursor: pointer;
+}
+
+.click{
+  text-decoration: none;
+}

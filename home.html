@@ -31,17 +31,17 @@
       <div class="dropdown1">
         <button class="mainmenubtn1"> Isabela</button>
         <div class="dropdown-child1">
-          <a href="index.html">sobre</a>
-          <a href="sobre.html">Experiencia</a>
-          <a href="projeto.html">Links</a>
+          <a href="#isabela" class="titulo-destaque gradiente">isabela</a>
+          <a href="#experiencia-isabela" class="titulo-destaque gradiente">Experiencia</a>
+          <a href="#links-isabela" class="titulo-destaque gradiente">Links</a>
         </div>
       </div>
       <div class="dropdown2">
         <button class="mainmenubtn2"> Sarah</button>
         <div class="dropdown-child2">
-          <a href="index.html">sobre</a>
-          <a href="sobre.html">Experiencia</a>
-          <a href="projeto.html">Links</a>
+          <a href="#sarah" class="titulo-destaque gradiente">sarah</a>
+          <a href="#experiencia-sarah" class="titulo-destaque gradiente">Experiencia</a>
+          <a href="#links-sarah" class="titulo-destaque gradiente">Links</a>
         </div>
       </div>
     </div>
@@ -58,18 +58,21 @@
     </div>
   </section>
 
-
-  <section class="parallax-container parallax-container2">
-    <h1> light side - isabela de oliveira <h1>
+  <section id="isabela" class="parallax-container parallax-container2" >
+    <a class="click" href="#experiencia-isabela">
+      <h1> light side - isabela de oliveira <h1>
+    </a>
   </section>
   <section class="buffer"></section>
-  <section class="parallax-container parallax-container3">
-    <h1> dark side - sarah affonço<h1>
+  <section id="sarah" class="parallax-container parallax-container3 ">
+    <a class="click" href="#experiencia-sarah">
+      <h1> dark side - sarah affonço<h1>
+    </a>
   </section>
 
   <main>
 
-    <div class="texto_apresentacao">
+    <div id="experiencia-isabela" class="texto_apresentacao">
       <img class="foto_perfil1" src="/assets/img/profile/bela.jpeg">
       <p>isabela de oliveira <br>
         futura cadete
@@ -83,7 +86,7 @@
 
     </div>
     <br>
-    <div class="linguagens"></div>
+    <div id="links-isabela" class="linguagens"></div>
     <h2 class="texto_linguagens">Linguagens:</h2>
     <div class="icons">
       <img src="/assets/img/icons/html.png" alt="icone HTML 5" width="50" height="50">
@@ -111,7 +114,7 @@
 
     <div class="parallax-container parallax-container4"></div>
 
-    <div class="texto_apresentacao">
+    <div id="experiencia-sarah" class="texto_apresentacao">
       <img class="foto_perfil2" src="/assets/img/profile/sarah.jpg">
       <p>Sarah Affonço <br>
         futura cadete
@@ -130,7 +133,7 @@
       </div>
     </div>
     <br>
-    <div class="linguagens">
+    <div id="links-sarah" class="linguagens">
       <h2 class="texto_linguagens">Linguagens:</h2>
       <div class="icons">
         <img src="/assets/img/icons/html.png" alt="icone HTML 5" width="50" height="50">
@@ -162,6 +165,7 @@
       <div class="texto-rodape">© 2024 - Developed by isabela e sarah.</div>
     </div>
   </footer>
+  <script src="/assets/script/script.js"></script>
 </body>
 
 </html>
