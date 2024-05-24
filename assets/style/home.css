@@ -1,0 +1,54 @@
+
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Star Wars', sans-serif;
+}
+
+.parallax-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+  background-attachment: fixed;
+  background-image: url(/assets/img/star_wars/home.webp);
+  background-position: center;
+  background-size: cover;
+  row-gap: 0;  
+}
+
+.buffer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: black;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(/assets/img/star_wars/yoda.jpg)
+}
+
+.parallax-container3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(/assets/img/star_wars/darth.jpg);
+}
+
+.content { 
+  padding: 2rem; 
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem; 
+  font-weight: 700;
+  color: white;
+}
