@@ -41,6 +41,12 @@ body {
   background-image: url(/assets/img/star_wars/darth.jpg);
 }
 
+.parallax-container4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(/assets/img/star_wars/Yoda-vs-Vader.jpg);
+}
+
 .content { 
   padding: 2rem; 
   text-align: center;
