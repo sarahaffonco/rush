@@ -15,7 +15,7 @@ body {
 
   
   background-attachment: fixed;
-  background-image: url(/assets/img/star_wars/home.webp);
+  background-image: url(./assets/img/star_wars/home.webp);
   background-position: center;
   background-size: cover;
   row-gap: 0;  
@@ -32,19 +32,19 @@ body {
 .parallax-container2 {
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(/assets/img/star_wars/yoda.jpg)
+  background-image: url(./assets/img/star_wars/yoda.jpg)
 }
 
 .parallax-container3 {
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(/assets/img/star_wars/darth.jpg);
+  background-image: url(./assets/img/star_wars/darth.jpg);
 }
 
 .parallax-container4 {
   flex-direction: row;
   flex-wrap: wrap;
-  background-image: url(/assets/img/star_wars/Yoda-vs-Vader.jpg);
+  background-image: url(./assets/img/star_wars/Yoda-vs-Vader.jpg);
 }
 
 .content { 
